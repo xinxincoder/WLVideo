@@ -17,7 +17,7 @@
 ## 具体使用
 
 ```ruby
-pod 'SandboxBrowserController'
+pod 'WLVideo'
 ```
 
 ### WLCameraController
