@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/cocoapods/v/SandboxBrowserController.svg?style=flat)](https://cocoapods.org/pods/SandboxBrowserController)
+[![Version](https://img.shields.io/cocoapods/v/WLVideo.svg?style=flat)](https://cocoapods.org/pods/WLVideo)
 
 ## WLVideo
 仿照微信拍照拍视频的功能
