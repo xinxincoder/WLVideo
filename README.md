@@ -1,3 +1,5 @@
+[![Version](https://img.shields.io/cocoapods/v/SandboxBrowserController.svg?style=flat)](https://cocoapods.org/pods/SandboxBrowserController)
+
 ## WLVideo
 仿照微信拍照拍视频的功能
 
@@ -13,6 +15,10 @@
 * 自定义视频导出参数
 
 ## 具体使用
+
+```ruby
+pod 'SandboxBrowserController'
+```
 
 ### WLCameraController
 ```swift
