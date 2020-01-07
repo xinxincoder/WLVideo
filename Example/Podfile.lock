@@ -1,0 +1,16 @@
+PODS:
+  - WLVideo (0.1.0)
+
+DEPENDENCIES:
+  - WLVideo (from `../`)
+
+EXTERNAL SOURCES:
+  WLVideo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WLVideo: bce70981a3a2f59d49af72521513d820f1c2e229
+
+PODFILE CHECKSUM: 78926c7bfbd0c34bf9e865218d7e29a56830f43e
+
+COCOAPODS: 1.7.0

@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'WLVideo_Example' do
+  pod 'WLVideo', :path => '../'
+end

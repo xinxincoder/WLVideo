@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE344197475048EBB336C407B95967F /* Pods-WLVideo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA56D31CEF1AB6AB790B21CDAD54E16 /* Pods-WLVideo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318B9D277A0AADDC4B40F8BE2CA66A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3509485AAD0BF10F876B7622C702E9 /* Foundation.framework */; };
+		47142B915C2ADEB403516234AD13FE51 /* WLVideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC956CC26A612D599D43E4D274CD893 /* WLVideoEditor.swift */; };
+		48397773E64502DA6F2C1C89EC1A9557 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E75905A74E9AF4BF7DEDFF083F8AB4F /* Images.xcassets */; };
+		53A1FFC7877379412264CD3BF8B25C58 /* WLDeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655BA2EFB4DBB1909F0118DBF034E09 /* WLDeviceOrientation.swift */; };
+		63E38D2DC5DFD8275A7E04894F446032 /* WLBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8213E62A635DB5AF1373EB0F0E4FF465 /* WLBundleHelper.swift */; };
+		640E6A22EBBF251DB92B1B133DC083C9 /* WLCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F3ABC2CF891BC1139E6118E64CD59A /* WLCameraController.swift */; };
+		6DFF4D024B82462D2F7A2E2CF4AD8A8D /* WLCameraControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAEB9D0B6B90D17EBC9A68194784907 /* WLCameraControl.swift */; };
+		8480CE46FAB31444EE766D7DD33A023D /* WLCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28657A4A77E1396A9BC34EC58A018B9 /* WLCameraManager.swift */; };
+		92086B86EAA0055D78AB81F7CB8F10D7 /* WLVideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7E70DC55F4B752552BE00935ED1512 /* WLVideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0744A5DA934F7DD57F63CC848709B89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2327F84ACE7998731804A1A0C2E03544 /* AVFoundation.framework */; };
+		A8D77B8764D19EA5AB94F37CCB56F024 /* WLVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEA6E43CC5C83DD7A2CDF8DAF24F61 /* WLVideoPlayer.swift */; };
+		B7D51F8C60862AD65D3E09C49F4C9CF4 /* Pods-WLVideo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 404DCCDB852B122AB787957DAC2943DD /* Pods-WLVideo_Example-dummy.m */; };
+		C8CDA6DBC0F7747CE9660C9DCD4F2030 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905AE351C1E006E5DA2C68A38C8EFE78 /* AssetsLibrary.framework */; };
+		CE08C946289CAFE154F83F3FCBB784E0 /* WLVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9FD14E932A2CB18B73A7F1AD54D314 /* WLVideo-dummy.m */; };
+		D13C96C7A3591A2091CFFCEA9150F6C8 /* WLImageRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AB0B3452E7A0E07506943768E9E /* WLImageRotate.swift */; };
+		DA25560A14CCBCDDD9431AD1102458CC /* WLVideoExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2D6057559346056FAB9B7067C1078 /* WLVideoExporter.swift */; };
+		E53F807754FD2C594A194C7B4D0E27E1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB336581B2E0E0D2E5257E28B5D5E5B3 /* UIView+Extension.swift */; };
+		E6C6FB4982109EB9B1A97C5BD95C26BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3509485AAD0BF10F876B7622C702E9 /* Foundation.framework */; };
+		E97AFDED6EB41799CE80A218471F9FA5 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C35E3DABC9B9F08E002D99057BC1DF /* Photos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69ABCF04B6823CB76983FF0DF81FDFF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA2ED3FB6AEEBDE8753180589341CFB;
+			remoteInfo = WLVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BBD9675229AF9C6189B2DDE5220A38 /* Pods-WLVideo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLVideo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0655BA2EFB4DBB1909F0118DBF034E09 /* WLDeviceOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLDeviceOrientation.swift; path = WLVideo/Classes/WLDeviceOrientation.swift; sourceTree = "<group>"; };
+		06B5F7618263C3285C2F371E6EBB388C /* Pods-WLVideo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLVideo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		17AEA6E43CC5C83DD7A2CDF8DAF24F61 /* WLVideoPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLVideoPlayer.swift; path = WLVideo/Classes/WLVideoPlayer.swift; sourceTree = "<group>"; };
+		1D3509485AAD0BF10F876B7622C702E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2327F84ACE7998731804A1A0C2E03544 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C9516AB7C968E3272DA984A156B1DE5 /* Pods-WLVideo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVideo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		34C279030A4663E3D2B5D3FA8D24FEBB /* Pods-WLVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3B7E70DC55F4B752552BE00935ED1512 /* WLVideo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLVideo-umbrella.h"; sourceTree = "<group>"; };
+		3C43EC63941F4951CA63C66A93ECC2B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3EA56D31CEF1AB6AB790B21CDAD54E16 /* Pods-WLVideo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLVideo_Example-umbrella.h"; sourceTree = "<group>"; };
+		404DCCDB852B122AB787957DAC2943DD /* Pods-WLVideo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLVideo_Example-dummy.m"; sourceTree = "<group>"; };
+		607C779818C96764614D24B8CD77958A /* WLVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLVideo.modulemap; sourceTree = "<group>"; };
+		66F3ABC2CF891BC1139E6118E64CD59A /* WLCameraController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLCameraController.swift; path = WLVideo/Classes/WLCameraController.swift; sourceTree = "<group>"; };
+		68AE07458B65718E41781355D9EBB173 /* Pods-WLVideo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLVideo_Example.modulemap"; sourceTree = "<group>"; };
+		7E75905A74E9AF4BF7DEDFF083F8AB4F /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WLVideo/Assets/Images.xcassets; sourceTree = "<group>"; };
+		8213E62A635DB5AF1373EB0F0E4FF465 /* WLBundleHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLBundleHelper.swift; path = WLVideo/Classes/WLBundleHelper.swift; sourceTree = "<group>"; };
+		848DEF4089073F047457A9D90EC24E09 /* Pods_WLVideo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLVideo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		905AE351C1E006E5DA2C68A38C8EFE78 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		94C35E3DABC9B9F08E002D99057BC1DF /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		97EF69E9C5D5BED8F6F320972A55613A /* WLVideo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLVideo.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A28657A4A77E1396A9BC34EC58A018B9 /* WLCameraManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLCameraManager.swift; path = WLVideo/Classes/WLCameraManager.swift; sourceTree = "<group>"; };
+		A6FF5E0EE0588E8CD32C2D1AD6FB6139 /* Pods-WLVideo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLVideo_Example-Info.plist"; sourceTree = "<group>"; };
+		AC69394466DDFEBF0AF8961F67DA2A0B /* WLVideo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLVideo-prefix.pch"; sourceTree = "<group>"; };
+		ADFED35F5DECC4AC5EE5E1F17C2C708C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B257AB3B28D81A176B6E17CF2DA6171C /* WLVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WLVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAEB9D0B6B90D17EBC9A68194784907 /* WLCameraControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLCameraControl.swift; path = WLVideo/Classes/WLCameraControl.swift; sourceTree = "<group>"; };
+		C194A16E1C7B22585711CD8AC1207DCF /* Pods-WLVideo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLVideo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8C2D6057559346056FAB9B7067C1078 /* WLVideoExporter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLVideoExporter.swift; path = WLVideo/Classes/WLVideoExporter.swift; sourceTree = "<group>"; };
+		DEC956CC26A612D599D43E4D274CD893 /* WLVideoEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLVideoEditor.swift; path = WLVideo/Classes/WLVideoEditor.swift; sourceTree = "<group>"; };
+		EC9F91A973A432226E2A04B3E3A30AC9 /* WLVideo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WLVideo.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		F09C1747914143A759CCFFE4437DE9D6 /* WLVideo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WLVideo-Info.plist"; sourceTree = "<group>"; };
+		FAA81AB0B3452E7A0E07506943768E9E /* WLImageRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLImageRotate.swift; path = WLVideo/Classes/WLImageRotate.swift; sourceTree = "<group>"; };
+		FB336581B2E0E0D2E5257E28B5D5E5B3 /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "WLVideo/Classes/UIView+Extension.swift"; sourceTree = "<group>"; };
+		FD9FD14E932A2CB18B73A7F1AD54D314 /* WLVideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLVideo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		363FE6CB5AFC9EB3745FF6E39E15CB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CDA6DBC0F7747CE9660C9DCD4F2030 /* AssetsLibrary.framework in Frameworks */,
+				A0744A5DA934F7DD57F63CC848709B89 /* AVFoundation.framework in Frameworks */,
+				E6C6FB4982109EB9B1A97C5BD95C26BA /* Foundation.framework in Frameworks */,
+				E97AFDED6EB41799CE80A218471F9FA5 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67EFF6A541D8D0BDF36769EAA876E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318B9D277A0AADDC4B40F8BE2CA66A18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C08DEFED1EF6AE1210DEF6F891A06DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				607C779818C96764614D24B8CD77958A /* WLVideo.modulemap */,
+				97EF69E9C5D5BED8F6F320972A55613A /* WLVideo.xcconfig */,
+				FD9FD14E932A2CB18B73A7F1AD54D314 /* WLVideo-dummy.m */,
+				F09C1747914143A759CCFFE4437DE9D6 /* WLVideo-Info.plist */,
+				AC69394466DDFEBF0AF8961F67DA2A0B /* WLVideo-prefix.pch */,
+				3B7E70DC55F4B752552BE00935ED1512 /* WLVideo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WLVideo";
+			sourceTree = "<group>";
+		};
+		2610E7D2542D6D2DD69AAEC3C6ACDC01 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				905AE351C1E006E5DA2C68A38C8EFE78 /* AssetsLibrary.framework */,
+				2327F84ACE7998731804A1A0C2E03544 /* AVFoundation.framework */,
+				1D3509485AAD0BF10F876B7622C702E9 /* Foundation.framework */,
+				94C35E3DABC9B9F08E002D99057BC1DF /* Photos.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BA24526E58C21B6D36123F009B187D1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3C43EC63941F4951CA63C66A93ECC2B1 /* LICENSE */,
+				ADFED35F5DECC4AC5EE5E1F17C2C708C /* README.md */,
+				EC9F91A973A432226E2A04B3E3A30AC9 /* WLVideo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6ED261453E6DF2FE360E4B27DC2E44B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1FDE2C91DC91DF5A12D75102A126266 /* WLVideo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7094F88971C2D251D2B587EB958457BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E75905A74E9AF4BF7DEDFF083F8AB4F /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B2DEECB0EB03BE78C1883FD81BFABD70 /* Pods-WLVideo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				68AE07458B65718E41781355D9EBB173 /* Pods-WLVideo_Example.modulemap */,
+				C194A16E1C7B22585711CD8AC1207DCF /* Pods-WLVideo_Example-acknowledgements.markdown */,
+				00BBD9675229AF9C6189B2DDE5220A38 /* Pods-WLVideo_Example-acknowledgements.plist */,
+				404DCCDB852B122AB787957DAC2943DD /* Pods-WLVideo_Example-dummy.m */,
+				06B5F7618263C3285C2F371E6EBB388C /* Pods-WLVideo_Example-frameworks.sh */,
+				A6FF5E0EE0588E8CD32C2D1AD6FB6139 /* Pods-WLVideo_Example-Info.plist */,
+				3EA56D31CEF1AB6AB790B21CDAD54E16 /* Pods-WLVideo_Example-umbrella.h */,
+				34C279030A4663E3D2B5D3FA8D24FEBB /* Pods-WLVideo_Example.debug.xcconfig */,
+				2C9516AB7C968E3272DA984A156B1DE5 /* Pods-WLVideo_Example.release.xcconfig */,
+			);
+			name = "Pods-WLVideo_Example";
+			path = "Target Support Files/Pods-WLVideo_Example";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2610E7D2542D6D2DD69AAEC3C6ACDC01 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFD3A5AA8B510F4E657CFE56500C424E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2DEECB0EB03BE78C1883FD81BFABD70 /* Pods-WLVideo_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6ED261453E6DF2FE360E4B27DC2E44B2 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				F5BD30E27BAF11C8D63A7E2D8ADD5620 /* Products */,
+				BFD3A5AA8B510F4E657CFE56500C424E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FDE2C91DC91DF5A12D75102A126266 /* WLVideo */ = {
+			isa = PBXGroup;
+			children = (
+				FB336581B2E0E0D2E5257E28B5D5E5B3 /* UIView+Extension.swift */,
+				8213E62A635DB5AF1373EB0F0E4FF465 /* WLBundleHelper.swift */,
+				BAAEB9D0B6B90D17EBC9A68194784907 /* WLCameraControl.swift */,
+				66F3ABC2CF891BC1139E6118E64CD59A /* WLCameraController.swift */,
+				A28657A4A77E1396A9BC34EC58A018B9 /* WLCameraManager.swift */,
+				0655BA2EFB4DBB1909F0118DBF034E09 /* WLDeviceOrientation.swift */,
+				FAA81AB0B3452E7A0E07506943768E9E /* WLImageRotate.swift */,
+				DEC956CC26A612D599D43E4D274CD893 /* WLVideoEditor.swift */,
+				D8C2D6057559346056FAB9B7067C1078 /* WLVideoExporter.swift */,
+				17AEA6E43CC5C83DD7A2CDF8DAF24F61 /* WLVideoPlayer.swift */,
+				6BA24526E58C21B6D36123F009B187D1 /* Pod */,
+				7094F88971C2D251D2B587EB958457BF /* Resources */,
+				0C08DEFED1EF6AE1210DEF6F891A06DA /* Support Files */,
+			);
+			name = WLVideo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F5BD30E27BAF11C8D63A7E2D8ADD5620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848DEF4089073F047457A9D90EC24E09 /* Pods_WLVideo_Example.framework */,
+				B257AB3B28D81A176B6E17CF2DA6171C /* WLVideo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06954585EED1656E9C69061EF5E664E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE344197475048EBB336C407B95967F /* Pods-WLVideo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52B4E2549618913B391AF72A0974AAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92086B86EAA0055D78AB81F7CB8F10D7 /* WLVideo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F8EDE98FCC474E46EB577511AAF1486 /* Pods-WLVideo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E47CD263016EA40307ECB965D75895C /* Build configuration list for PBXNativeTarget "Pods-WLVideo_Example" */;
+			buildPhases = (
+				06954585EED1656E9C69061EF5E664E2 /* Headers */,
+				8812D9680929F4CA480C56949F7E0A19 /* Sources */,
+				A67EFF6A541D8D0BDF36769EAA876E31 /* Frameworks */,
+				1D27EC5A26EB697C1844CEDAD398E548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469573057E115DCE9C8F664860AB02E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLVideo_Example";
+			productName = "Pods-WLVideo_Example";
+			productReference = 848DEF4089073F047457A9D90EC24E09 /* Pods_WLVideo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCA2ED3FB6AEEBDE8753180589341CFB /* WLVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73C2C385149F8C2EE5DB6AB7918E6F01 /* Build configuration list for PBXNativeTarget "WLVideo" */;
+			buildPhases = (
+				A52B4E2549618913B391AF72A0974AAD /* Headers */,
+				F0AE02E6A4234266B62256C990FE0B30 /* Sources */,
+				363FE6CB5AFC9EB3745FF6E39E15CB8E /* Frameworks */,
+				10D9E576ACA0C02BE7D41FA40E972CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLVideo;
+			productName = WLVideo;
+			productReference = B257AB3B28D81A176B6E17CF2DA6171C /* WLVideo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F5BD30E27BAF11C8D63A7E2D8ADD5620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8EDE98FCC474E46EB577511AAF1486 /* Pods-WLVideo_Example */,
+				FCA2ED3FB6AEEBDE8753180589341CFB /* WLVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10D9E576ACA0C02BE7D41FA40E972CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48397773E64502DA6F2C1C89EC1A9557 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D27EC5A26EB697C1844CEDAD398E548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8812D9680929F4CA480C56949F7E0A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D51F8C60862AD65D3E09C49F4C9CF4 /* Pods-WLVideo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AE02E6A4234266B62256C990FE0B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53F807754FD2C594A194C7B4D0E27E1 /* UIView+Extension.swift in Sources */,
+				63E38D2DC5DFD8275A7E04894F446032 /* WLBundleHelper.swift in Sources */,
+				6DFF4D024B82462D2F7A2E2CF4AD8A8D /* WLCameraControl.swift in Sources */,
+				640E6A22EBBF251DB92B1B133DC083C9 /* WLCameraController.swift in Sources */,
+				8480CE46FAB31444EE766D7DD33A023D /* WLCameraManager.swift in Sources */,
+				53A1FFC7877379412264CD3BF8B25C58 /* WLDeviceOrientation.swift in Sources */,
+				D13C96C7A3591A2091CFFCEA9150F6C8 /* WLImageRotate.swift in Sources */,
+				CE08C946289CAFE154F83F3FCBB784E0 /* WLVideo-dummy.m in Sources */,
+				47142B915C2ADEB403516234AD13FE51 /* WLVideoEditor.swift in Sources */,
+				DA25560A14CCBCDDD9431AD1102458CC /* WLVideoExporter.swift in Sources */,
+				A8D77B8764D19EA5AB94F37CCB56F024 /* WLVideoPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		469573057E115DCE9C8F664860AB02E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WLVideo;
+			target = FCA2ED3FB6AEEBDE8753180589341CFB /* WLVideo */;
+			targetProxy = 69ABCF04B6823CB76983FF0DF81FDFF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		133FBFB2E1ADAC0A77410E8D805D0164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97EF69E9C5D5BED8F6F320972A55613A /* WLVideo.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WLVideo/WLVideo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLVideo/WLVideo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLVideo/WLVideo.modulemap";
+				PRODUCT_MODULE_NAME = WLVideo;
+				PRODUCT_NAME = WLVideo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		39A9824015B7B94440112319AFD19BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97EF69E9C5D5BED8F6F320972A55613A /* WLVideo.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WLVideo/WLVideo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLVideo/WLVideo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLVideo/WLVideo.modulemap";
+				PRODUCT_MODULE_NAME = WLVideo;
+				PRODUCT_NAME = WLVideo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		869160A22996BAC7092CA2175AE1B94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9516AB7C968E3272DA984A156B1DE5 /* Pods-WLVideo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLVideo_Example/Pods-WLVideo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLVideo_Example/Pods-WLVideo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CC0333A64AE61632B7973700019E9AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C279030A4663E3D2B5D3FA8D24FEBB /* Pods-WLVideo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLVideo_Example/Pods-WLVideo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLVideo_Example/Pods-WLVideo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E47CD263016EA40307ECB965D75895C /* Build configuration list for PBXNativeTarget "Pods-WLVideo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0333A64AE61632B7973700019E9AA5 /* Debug */,
+				869160A22996BAC7092CA2175AE1B94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73C2C385149F8C2EE5DB6AB7918E6F01 /* Build configuration list for PBXNativeTarget "WLVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133FBFB2E1ADAC0A77410E8D805D0164 /* Debug */,
+				39A9824015B7B94440112319AFD19BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
