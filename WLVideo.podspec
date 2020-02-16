@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Weang/WLVideo', :tag => s.version.to_s }
 
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'WLVideo/Classes/**/*'
   s.resources = 'WLVideo/Assets/*'
